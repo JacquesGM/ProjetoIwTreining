@@ -1,0 +1,39 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<style>
+  body {
+    background-color: #EEE;
+  }
+</style>
+
+<section class="container mt-5">
+  <div class="card card-body">
+    <h1>Cadastro de Cliente</h1>
+
+    <div>
+      <a href="index.html" class="btn btn-outline-dark">
+        Adicionar novo Cliente
+      </a>
+    </div>
+
+    <hr>
+    
+    <table class="table table-hover table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th>Nome</th>
+          <th>Região</th>
+          <th>Estado</th>
+          <th>Cidade</th>
+          <th>Bairro</th>
+          <th>Endereço</th>
+          <th>CEP</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-clientes"></tbody>
+    </table>
+  </div>
+</section>
+
+
+<script src="storage.js"></script>

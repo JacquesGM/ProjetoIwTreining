@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<section class="conteiner mt-5">
+		<div class="card card-body">
+			<form id="formulario" method="post" action="">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" placeholder="Digite o nome" class="form-control">
+				<small class="text-danger d-none" id="nome-erro">O nome precisa de no mínimo 10 letras</small>
+				<br>
+
+				<label for="email" class="mt-2">Email</label>
+				<input type="email" id="email" placeholder="Digite o email" class="form-control">
+				<small class="text-danger d-none" id="email-erro">O email está inválido</small>
+				<br>
+
+				<label for="telefone" class="mt-2">Telefone</label>
+				<input type="text" id="telefone" placeholder="Digite o telefone" class="form-control">
+				<small class="text-danger d-none" id="telefone-erro">O telefone está invalido</small>
+				<br>
+
+				<button class="btn btn-primary mt-2">Enviar</button>
+				
+			</form>
+		</div>
+
+		<div class="card card-body">
+			<table class="table table-hover table-striped">
+				<thead class="table-dark">
+					<tr>
+						<th>Nome</th>
+						<th>Email</th>
+						<th>Telefone</th>
+					</tr>
+					
+				</thead>
+				<tbody id="tabela"></tbody>
+			</table>
+			
+		</div>
+
+	</section>
+
+	<script type="text/javascript" src="eventos2.js"></script>
+
+</body>
+</html>

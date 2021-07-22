@@ -1,0 +1,52 @@
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+
+  --color-bg-default: linear-gradient(90deg, rgba(140,110,196,1) 12%, rgba(63,36,150,1) 49%, rgba(98,21,130,1) 75%, rgba(86,8,114,1) 96%);
+}
+
+.section-1 {
+  background: rgb(140,110,196);
+  background: var(--color-bg-default);
+  height: 100%;
+}
+
+section .row {
+  height: 100%;
+}
+
+.section-1 .col-md-5 {
+  margin: auto;
+  vertical-align: middle;
+}
+
+.card-custom i {
+  font-size: 7rem;
+}
+
+.card-custom {
+  color: var(--color-bg-default);
+  background: #FFF;
+}
+
+.card-custom:hover {
+  background: var(--color-bg-default);
+  color: #FFF;
+}
+
+.card-customer {
+  transition: 1s;
+}
+
+.card-customer:hover {
+  transform: scale(0.8);
+  transition: 1s;
+  background-color: #CCC;
+}
+
+
+.section-3 {
+  margin-top: 200px !important;
+}

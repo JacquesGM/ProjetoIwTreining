@@ -1,0 +1,103 @@
+html, body {
+	font-family: `Roboto`, sans-serif;
+	background-color: #15202b;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.principal{
+	display: flex;
+	align-content: center;
+	height: 92%;
+
+}
+
+
+.principal > div{
+	flex: 2;
+
+}
+
+.lado-esquerdo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #74cafe;
+}
+
+.conteudo-esquerdo{
+	color: #fff;
+
+}
+.conteudo-esquerdo > p{
+	text-shadow: 1px 1px 1px #333;
+}
+
+.rodape{
+	text-align: center;
+}
+
+.rodape li, .rodape a{
+	color: #fff;
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	font-size: 0.9rem;
+
+}
+.rodape a:hover {
+	text-decoration: underline;	
+
+}
+
+.form-login{
+	padding-top: 30px;
+	padding-right: 100px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.form-login div{
+	flex: 3;
+	display: inline-grid;
+
+}
+
+.form-login button, .form-login input{
+	height: 50px;
+	font-size: 1.2rem;
+	background-color: transparent;
+
+}
+
+.form-login input{
+	color: #EEEEEE;
+	border: 1px solid #AAAAAA;
+	border-radius: 3px;
+	
+}
+
+.form-login button{
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #1da1f2;
+	border:1px solid #1da1f2;
+	outline: none;
+}
+
+.form-login button:hover{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-login a{
+	margin-top: 5px;
+	color: #1da1f2;
+	text-decoration: none;
+}
+
+.form-login a:hover {
+	text-decoration: underline;
+}

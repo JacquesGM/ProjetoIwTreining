@@ -1,0 +1,145 @@
+body, html {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100%;
+	font-family: `Roboto`, sans-serif;
+
+	--color-bg-default: linear-gradient(90deg, rgba(118,112,226,1) 9%, rgba(110,9,121,1) 43%, rgba(123,0,255,1) 80%);
+}
+
+.section-1, .section-4{
+	background: rgb(118,112,226);
+	background: var(--color-bg-default);
+	height: 100%;
+}
+
+section .row {
+	height: 100%;
+}
+.section-1 .col-md-5 {
+	margin: auto;
+	vertical-align: middle;
+}
+.card-custom i{
+	font-size: 7rem;
+}
+
+.card-custom{
+	background: #FFF;
+	color: var(--color-bg-default);
+
+}
+.card-custom:hover {
+	background: var(--color-bg-default);
+	color: #FFF;
+	
+}
+
+.card-customer:hover {
+	transform: scale(0.8);
+	transition: 1s;
+	background-color: #CCC;
+}
+
+.section-3{
+	margin-top: 200px !important;
+}
+
+.valores{
+	margin: 0px auto;
+	width: 900px;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.flex-box {
+  	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.pacote{
+	width: 800px;
+	height: 500px;
+	float: left;
+	margin-left: 20px;
+	transition: all 0.4s ease-out;
+	border-radius: 5%;
+}
+
+.pacote:hover {
+	cursor: pointer;
+	transform: translateY(-20px);
+	box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);
+}
+
+.pacote ,#valor-1 ,#valor-2 ,#valor-3{
+	background-color: white;
+}
+
+footer{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.rodape{
+
+	margin: 0px auto;
+	width: 50px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.rede{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-left: 20px;
+	transition: all 0.4s ease-out;
+	border-radius: 50%;
+
+}
+
+.rede:hover{
+	cursor: pointer;
+	transform: translateY(-20px);
+	box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45);
+}
+
+.rede#facebook{
+	background-color: #2372a3;
+}
+.rede#twitter{
+	background-color: #0084b4;
+}
+
+.rede#instagram{
+	background-color: #3f729b;
+}
+
+.rede#youtube{
+	background-color: #b00;
+}
+
+.icone{
+	margin: 0px auto;
+	padding: 10px;
+	width: 70px;
+}
+
+.texto-rodape{
+	padding: 2em 0;
+    font-size: 18px;
+    color: #666666;
+    height: 200px;
+}

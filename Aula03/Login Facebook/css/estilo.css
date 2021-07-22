@@ -1,0 +1,61 @@
+html, body {
+	font-family: `Roboto`, sans-serif;
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.imagem img{
+	width: 180px;
+}
+
+.principal{
+	display: flex;
+	background-color: #f0f2f5;
+	align-content: center;
+	height: 75%;
+
+}
+
+.principal > div{
+	flex: 2;
+
+}
+
+.lado-esquerdo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+
+}
+
+.imagem{
+
+}
+
+.imagem > img{
+	max-width: 220px;
+	max-height: 60px;
+	width: 220px;
+	height: 60px;
+}
+
+.texto{
+	margin-left: 39%;
+	margin-right: 10%;
+
+}
+.texto > p{
+	text-align: left;
+	font-size: 25px;
+
+	
+}
+
+footer{
+	background-color: white;
+}

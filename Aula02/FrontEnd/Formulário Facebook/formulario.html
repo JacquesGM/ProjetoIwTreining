@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulario Facebook</title>
+		<meta charset="utf-8">
+	</head>
+	<body style="font-family: Helvetica;">
+		<div style="background-color: #f5fbff;" >
+			<div style="background-color: #3b5998; height: 80px;">			
+				<div style="position: absolute; padding-top: 15px; padding-left: 20px;">
+					<a href="https://www.facebook.com/"><img " src="imagens/facebook.png" style="width: 150px"></a>
+				</div>
+				<div style="position: absolute; padding-top: 25px; padding-left: 1300px;">		
+					<a href="https://www.facebook.com/"><img src="imagens/entrarConta.png" style="width: 170px;"></a>
+				</div>
+			</div>
+			<div style="background-color: #f5fbff;">
+				<p style="font-size: 150%; margin-bottom: 15px; font-weight: 700; margin-left: 600px;"><strong>Criar uma nova conta</strong></p>
+				<p style="margin-bottom: 20px; margin-left: 600px;">É rápido e fácil.</p>
+				
+				<form style="margin-left: 600px;" >
+					<label for="nome"></label>
+					<input type="text" id="nome" placeholder="Nome" required style="margin-right: 5px; margin-bottom: 10px; border-radius: 3px; padding: 5px; border-color: #f5fbff; ">
+
+					<label for="sobrenome"></label>
+					<input type="text" id="sobrenome" placeholder="Sobrenome" required style="margin-bottom: 10px; border-radius: 3px; padding: 5px; border-color: #f5fbff;">
+					<br>
+
+					<label for="celularOuEmail"></label>
+					<input type="text" id="celularOuEmail" placeholder="Celular ou email" required style="margin-bottom: 10px; width: 337px; border-radius: 3px; padding: 5px; border-color: #f5fbff;">
+					<br>
+
+					<label for="senha"></label>
+					<input type="password" id="senha" placeholder="Nova senha" required style="margin-bottom: 10px; width: 337px; border-radius: 3px; padding: 5px; border-color: #f5fbff;">
+					<br>
+
+					<p><strong style="color: #999999;">Data de Nascimento</strong></p>
+					
+					<label for="data"></label>
+					<input type="date" id="data" required style="border-radius: 3px; padding: 5px; border-color: #f5fbff;">
+					<br>
+
+					<p style="color: #999999"><strong>Gênero</strong></p>
+					
+					<input type="radio" id="feminino" name="genero" required style="border-color: #f5fbff;">
+					<label style="font-size: 14px;" for="feminino">Feminino</label>
+					
+					<input type="radio" id="mascolino" name="genero" required style="border-color: #f5fbff;">
+					<label style="font-size: 14px;" for="masculino" >Masculino</label>
+					
+					<input type="radio" id="feminino" name="genero" required style="border-color: #f5fbff;">
+					<label style="font-size: 14px;" for="presonalizado" >Personalizado</label>
+					<br>
+
+					<table width="300px" >
+						<tr>
+							<td>
+								<p style="text-align: justify; font-size: 10px; color: #999999;">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/about/terms-updates" style=" text-decoration: none;">Termos, Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/" style=" text-decoration: none;">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+							</td>
+						</tr>
+					</table>
+
+					<button style="width: 170px; padding: 7px; color: white; border-radius: 5px; border:none; background-color: #217517; font-size: 17px; font-weight: 600;">Cadastre-se</button>
+					<br><br>
+
+				</form>
+			</div>
+		</div>
+	</body>
+	</html>
